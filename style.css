@@ -7,13 +7,11 @@ body{
     width: 100%;
 }
 
-/* header{
-    background-image: url(images/bg.png);
-    background-size: cover;
-    background-repeat: no-repeat;
+header{
     width: 100%;
     overflow: hidden;
-} */
+}
+
 .container{
     position: fixed;
     width: 150px;
@@ -22,7 +20,7 @@ body{
     box-shadow: 5px 5px 20px black;
 }
 
-.fi-h2{
+.my-1st-name{
     color: white; 
     background: black; 
     width: 150px; 
@@ -30,7 +28,8 @@ body{
     padding-left: 9px;
     border: 2px solid black;
 }
-h2.fi-h2:hover{
+
+h2.my-1st-name:hover{
     color: white;
     background: springgreen;
     box-shadow: 1px 5px 20px yellow;
@@ -43,7 +42,7 @@ h2.fi-h2:hover{
     text-shadow: 2px 2px 5px cyan;
 }
 
-.my-img{
+.top-img{
     width: 250px;
     height: 250px;
     border-radius: 50%;
@@ -51,7 +50,7 @@ h2.fi-h2:hover{
     margin-left: 50px;
 }
 
-.my-img:hover{
+.top-img:hover{
     box-shadow: 5px 5px 20px cyan;
 }
 
@@ -59,9 +58,16 @@ h2.fi-h2:hover{
     margin-left: 350px;
 }
 
-.ml{
+.mg-left{
     margin-left: 50px;
 }
+
+@media (max-width:1000px){
+    .row .mg-left{
+    margin-left: 0px;
+    margin-top: 100px;
+    }
+  }
 
 .my-name{
     font-size: 32px;
@@ -103,13 +109,14 @@ li:hover{
     color: white;
     background: #8443DF;
 }
+
 .third-sec{
     width: 70%;
     margin: 250px 0px 100px 300px;
     text-align: center;
 }
 
-.img-card{
+.card-logo{
     margin: 20px auto;
     width: 60px;
     height: 60px;
@@ -124,17 +131,26 @@ li:hover{
     box-shadow: 5px 5px 15px cyan, 5px 5px 15px rgb(34, 0, 255);
 }
 
-
 .card-bg:hover{
     background: springgreen;
     box-shadow: 5px 5px 20px yellow;
 }
 
-.four-sec{
-    margin-top: 250px !important;
-    width: 60%;
-    margin: 0 auto;
-    margin-left: 350px;
+.my-details-style{
+    background-color: #8443DF;
+    color: white;
+    box-shadow: 5px 5px 20px cyan;
+    margin-top: 40px;
+}
+  
+.my-details-style:hover{
+    background: springgreen;
+    box-shadow: 5px 5px 20px yellow;
+}
+
+.fifth-sec{
+    width: 70%;
+    margin: 250px 0px 100px 300px;
 }
 
 .about-ml{
@@ -149,15 +165,17 @@ li:hover{
     border: none;
 }
 
-.about-img{
-    width: 230px;
-    height: 230px;
+.bottom-img{
+    width: 270px;
+    height: 270px;
     border-radius: 50%;
-    box-shadow: 5px 5px 20px #8443DF;
+    box-shadow: 5px 5px 20px cyan;
+    padding: 30px;
+    margin-left: 30px;
 }
 
-.about-img:hover{
-    box-shadow: 5px 5px 20px cyan;
+.bottom-img:hover{
+    box-shadow: 7px 7px 20px #8443DF;
 }
 
 .section-description{
@@ -168,8 +186,9 @@ li:hover{
 
 .section-description:hover{
     font-size: 18px;
-    color: springgreen;
+    color: #8443DF;
 }
+
 .contact-with-me{
     display: flex;
     gap: 70px;
@@ -177,21 +196,17 @@ li:hover{
     margin-bottom: 0%;
 }
 
-.last-div{
-    margin-left: 150px;
-    padding: 7px;
-}
-
 .section-title{
     color: #FD6E0A;
+    font-size: 25px;
 }
 
 .section-title:hover{
-    color: yellow;
+    color: rgb(255, 0, 0);
     text-shadow: 2px 2px 5px cyan;
 }
 
-.btn-2{
+.btn-1{
     color: rgb(0, 255, 255);
     background-color: #FD6E0A;
     font-weight: 700;
@@ -202,7 +217,7 @@ li:hover{
     border-radius: 5px;
 }
 
-.btn-1 {
+.btn-2 {
     color: #FFFFFF;
     font-weight: 700;
     font-size: 20px;
@@ -213,21 +228,10 @@ li:hover{
     background: #FD6E0A;
 }
 
-.btn-1:hover{
+.btn-2:hover{
     font-size: 25px;
     color: white;
     background: green;
     padding: 5px 25px;
-}
-
-.c-style{
-    box-shadow: 5px 5px 20px cyan;
-    background: #8443DF;
-}
-
-.c-style:hover{
-    color: red;
-    background: springgreen;
-    box-shadow: 5px 5px 20px yellow;
 }
 
