@@ -43,11 +43,12 @@ h2.my-1st-name:hover{
 }
 
 .top-img{
-    width: 250px;
-    height: 250px;
+    width: 260px;
+    height: 260px;
     border-radius: 50%;
     box-shadow: 5px 5px 20px #8443DF;
-    margin-left: 50px;
+    margin-left: 150px;
+    margin-top: 20px;
 }
 
 .top-img:hover{
@@ -58,13 +59,9 @@ h2.my-1st-name:hover{
     margin-left: 350px;
 }
 
-.mg-left{
-    margin-left: 50px;
-}
-
-@media (max-width:1000px){
+@media (max-width:767px){
     .row .mg-left{
-    margin-left: 0px;
+    margin-left: -150px;
     margin-top: 100px;
     }
   }
@@ -78,6 +75,8 @@ h2.my-1st-name:hover{
 
 .sm-text{
     box-shadow: 4px 4px 20px #8443DF;
+    border-radius: 7px;
+    margin-top: 35px;
 }
 
 .sm-text:hover{
@@ -114,6 +113,11 @@ li:hover{
     width: 70%;
     margin: 250px 0px 100px 300px;
     text-align: center;
+}
+
+.first-section{
+    width: 70%;
+    margin: 0px 0px 100px 300px;
 }
 
 .card-logo{
