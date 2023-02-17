@@ -263,14 +263,14 @@ li:hover{
 }
 
 .portfolio-img-1{
-    width: 460px;
+    width: auto;
     height: 400px;
     padding: 10PX;
     border-radius: 10px;
 }
 
 .portfolio-img-2{
-    width: 460px;
+    width: auto;
     height: 450px;
     padding: 10PX;
     border-radius: 10px;
